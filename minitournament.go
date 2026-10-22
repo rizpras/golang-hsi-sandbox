@@ -86,7 +86,7 @@ func main() {
 			numDraw++
 		}
 
-		historySlice = append(historySlice, fmt.Sprintf("[%s] %s %d - %d %s --> Pemenang: %s", venueArray[i-1], homeTeam, homeGoal, awayTeam, awayGoal, homeTeam))
+		historySlice = append(historySlice, fmt.Sprintf("[%s] %s %d - %d %s --> Pemenang: %s", venueArray[i-1], homeTeam, homeGoal, awayGoal, awayTeam, homeTeam))
 		totalGoal += homeGoal + awayGoal
 	}
 
@@ -104,7 +104,7 @@ func main() {
 
 	fmt.Println("Riwayat Pertandingan:")
 	for i := 0; i < len(historySlice); i++ {
-		fmt.Printf("%d. %s", i+1, historySlice[i])
+		fmt.Printf("%d. %s\n", i+1, historySlice[i])
 	}
 
 	fmt.Println("Klasemen Poin Akhir:")
