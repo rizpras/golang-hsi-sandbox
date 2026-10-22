@@ -102,11 +102,13 @@ func main() {
 		fmt.Printf("- Laga %d bertempat di %s\n", i, venueArray[i-1])
 	}
 
+	fmt.Println("")
 	fmt.Println("Riwayat Pertandingan:")
 	for i := 0; i < len(historySlice); i++ {
 		fmt.Printf("%d. %s\n", i+1, historySlice[i])
 	}
 
+	fmt.Println("")
 	fmt.Println("Klasemen Poin Akhir:")
 	for index, value := range pointsMap {
 		fmt.Printf("- %s          : %d Poin\n", index, value)
