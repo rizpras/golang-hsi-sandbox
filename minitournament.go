@@ -23,7 +23,6 @@ func main() {
 	for i := 1; i <= numPlay; i++ {
 		fmt.Printf("Masukkan nama stadion untuk laga ke-%d : ", i)
 		fmt.Scan(&venueArray[i-1])
-		fmt.Println("")
 	}
 
 	fmt.Println("===================================")
